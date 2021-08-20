@@ -15,6 +15,12 @@
 * From the retiring_titles table, we are able to see that majority of those employees who are eligible for retirement currently have a senior title
 
 ![Screen Shot 2021-08-20 at 6 32 08 PM](https://user-images.githubusercontent.com/86751774/130302572-9ee780c1-ec3e-4a68-b816-2392f496aa33.png)
+
+* From the mentorship_eligibility table, we are able to see that employees who are eligible for the mentorship program currently hold a senior title 
+
+![Screen Shot 2021-08-20 at 6 32 46 PM](https://user-images.githubusercontent.com/86751774/130302600-0d4a4379-7e59-461e-afe2-d7e4692241af.png)
+
+
 ### Summary:Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 
 #### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
