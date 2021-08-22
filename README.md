@@ -1,9 +1,11 @@
 # Pewlett-Hackard-Analysis
 
-### Overview: of analysis: Explain the purpose of this analysis.
+### Overview:
+
   The purpose of the project was to determine the number of retiring employees by their title and to identify which employees are eligible for the mentorship program. The number of retiring employees by their title was filtered by those who were born between January 1, 1952 to December 31, 1955. Query was created by retrieving emp_no, first_name, and last_name columns from the employees table and the title, from_date, and to_date columns from the titles table and the two tables were joined on the primary key and entered into a new table called retirement_titles which was then exported as retirement_titles.csv into the Data folder. Identifying which employees are eligible for the mentorship program was filtered by those who were born between january 1, 1965 and December 31, 1965. Another query was written by using DISTINCT ON statemnt to retrieve emp_no, first_name, last_name, and birth_date columns from the employees table and from_date and to_date columns from the dept_emp table, and title column from the titles table. The three tables were joined and entered into a new table called mentorship_eligibility which was then exported as mentorship_eligibility.csv into the data folder. 
 
-### Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
+### Results: 
+
   * From the image of the retirement_titles table below, we are able to see all of the employees who are eligible for retirement as well as how long the worked and all the titles they worked as.
  
  ![Screen Shot 2021-08-20 at 6 27 34 PM](https://user-images.githubusercontent.com/86751774/130302370-41330c99-8a22-48bb-ab56-752249cf4098.png)
@@ -21,8 +23,10 @@
 ![Screen Shot 2021-08-20 at 6 32 46 PM](https://user-images.githubusercontent.com/86751774/130302600-0d4a4379-7e59-461e-afe2-d7e4692241af.png)
 
 
-### Summary:Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
+### Summary:
 
 #### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-
+  As the "silver tsunami" begins to make an impact, total of 90,398 roles will need to be filled. 
+  
 #### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+  No, there are only 1,940 qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees.
